@@ -1,0 +1,13 @@
+---
+layout: default
+title: "bocgnr"
+---
+
+<div id="posts">
+	<h6>Most Recent Posts</h6>
+	{% for post in site.posts limit:5 %}
+		<div class="post">
+			<strong>{{ post.title }}</strong>
+		</div>
+	{% endfor %}
+</div>
