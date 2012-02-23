@@ -2,30 +2,32 @@
 	<head>
 		<title>{{ page.title }}</title>
 		<style type="text/css" media="all">
+			@import "/static/bootstrap/css/bootstrap.min.css";
 			@import "/static/css/style.css";
-			@import "/static/960/css/min/960.css";
-			@import "/static/960/css/min/text.css";
 		</style>
 		<script type="text/javascript"
   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 	</head>
 	
-	<body id="content">
-		<div id="header">
-			{% include header.html %}
-		</div>
+	<body>
+	
+		<div id="page">
 		
-		<div class="container_12">
-			<div class="grid_8 prefix_2">
-				<div id="body_content">
-					{{ content }}
-				</div>
+			<div>
+				{% include header.html %}
 			</div>
+					
+			<div>
+				{{ content }}
+			</div>
+					
+			<div>
+				{% include footer.html %}
+			</div>
+			
 		</div>
 		
-		<div id="body_footer">
-			{% include footer.html %}
-		</div>
 	</body>
+	
 </html>
