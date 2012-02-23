@@ -1,11 +1,33 @@
 body {
-	background-color: #333;
+	background-image: url(http://i.imgur.com/kKFD0.jpg);
+	background-color: #222;
 	color: #ccc;
 }
 
 #header_content, #footer_content {
 	color: orange;
 	text-align: center;
+}
+
+#page {
+	width: 600px;
+	margin: 0px auto;
+	padding: 20px;
+	background-color: #333;
+	border-radius: 20px;
+	opacity: 0.9;
+}
+
+.math {
+	color: black;
+	background-color: white;
+	padding: 2px 0px;
+	border-radius: 10px;
+}
+
+h1,h2,h3,h4,h5 {
+	color: white;
+	margin: 10px 20px;
 }
 
 #body_content {
@@ -18,6 +40,7 @@ a {
 
 #nav a {
 	color: #aabf73;
+	margin: 0px 10px;
 }
 
 #title a {

@@ -2,10 +2,8 @@
 layout: default
 title: "bocgnr"
 ---
-<h1>Welcome</h1>
-
 <div id="posts">
-	<h6>Most Recent Posts</h6>
+	<h3>Most Recent Posts</h3>
 	{% for post in site.posts limit:5 %}
 		<div class="post">
 			<strong>{{ post.title }}</strong>
