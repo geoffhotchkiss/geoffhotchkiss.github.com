@@ -1,0 +1,19 @@
+---
+layout: default
+title: Blog
+---
+
+<div id="allposts">
+	<h2>All Posts</h2>
+</div>
+
+<div id="posts">
+	{% for post in site.posts %}
+		<div id="post">
+			<a href="{{ post.url }}">{{ post.title }}</a>
+			<div class="tags">
+				<b>Tags</b>: { {{ post.catagories | join:", "}} }
+			</div>
+		</div>	
+	{% endfor %}
+</div>

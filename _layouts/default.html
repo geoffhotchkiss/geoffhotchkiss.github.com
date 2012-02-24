@@ -1,32 +1,22 @@
 <html>
 	<head>
-		<title>{{ page.title }}</title>
-		<style type="text/css" media="all">
-			@import "/static/css/style.css";
-		</style>
-		<script type="text/javascript"
-  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
+		<link rel="stylesheet" type="text/css" href="/style.css" />
+		<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/dpvc/2.0-beta/MathJax.js?config=default"></script>
+		<title>GH &#8835; {{ page.title }}</title>
 	</head>
 	
 	<body>
-	
-		<div id="page">
-		
-			<div id="header">
-				{% include header.html %}
+		<div id="content">		
+			<h1 id="title"><a href="/">Geoff Hotchkiss</a> &#8835; {{ page.title }}</h1>
+			<div id="nav">
+				<a id="bloglink" href="/blog">Blog</a>
+				<a id=" githublink" href="http://github.com/geoffhotchkiss">Github</a>
+				<a id="resumelink" href="/resume">Resume</a>
+				<a id="aboutlink" href="/about">About</a>
 			</div>
-					
-			<div id="content">
+			<div id="about">
 				{{ content }}
 			</div>
-					
-			<div id="footer">
-				{% include footer.html %}
-			</div>
-			
-		</div>
-		
+		</content>
 	</body>
-	
 </html>

@@ -32,3 +32,12 @@ body {
 	padding: 10px;
 	border-radius: 10px;
 }
+
+#allposts h2 {
+	margin-top: 0px;
+}
+
+.tags {
+	margin-top: 5px;
+	padding-left: 20px;
+}
