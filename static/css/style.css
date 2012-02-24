@@ -1,7 +1,8 @@
 body {
-	background-image: url(http://i.imgur.com/kKFD0.jpg);
-	background-color: #222;
+	/* background-image: url(http://i.imgur.com/kKFD0.jpg); */
+	background-color: #111;
 	color: #ccc;
+	font-family: sans-serif;
 }
 
 #header_content, #footer_content {
@@ -10,12 +11,11 @@ body {
 }
 
 #page {
-	width: 600px;
+	width: 800px;
 	margin: 0px auto;
 	padding: 20px;
-	background-color: #333;
-	border-radius: 20px;
-	opacity: 0.9;
+	background-color: #111;
+	/* border-radius: 20px; */
 }
 
 .math {
@@ -25,9 +25,21 @@ body {
 	border-radius: 10px;
 }
 
-h1,h2,h3,h4,h5 {
-	color: white;
+h1 {
 	margin: 10px 20px;
+}
+
+h3 {
+	margin: 20px 0px;
+	color: #ccc;
+	font-variant: small-caps;
+	font-size: 15px;
+}
+
+#posts a {
+	color: #aabf73;
+	font-variant: small-caps;
+	font-size: 15px;
 }
 
 #body_content {
@@ -38,15 +50,15 @@ a {
 	text-decoration: none;
 }
 
-#nav a {
-	color: #aabf73;
-	margin: 0px 10px;
-}
-
 #title a {
 	color: orange;
 }
 
 #nav {
 	font-size: 20px;
+}
+
+#nav a {
+	color: #aabf73;
+	margin: 0px 10px;
 }
