@@ -1,12 +1,11 @@
 body {
-	/* background-image: url(http://i.imgur.com/kKFD0.jpg); */
-	background-color: #111;
-	color: #ccc;
+	color: #111;
+	background-color: #eee;
 	font-family: sans-serif;
 }
 
 #header_content, #footer_content {
-	color: orange;
+	color: #FFBA4B;
 	text-align: center;
 }
 
@@ -14,13 +13,11 @@ body {
 	width: 800px;
 	margin: 0px auto;
 	padding: 20px;
-	background-color: #111;
 	/* border-radius: 20px; */
 }
 
 .math {
 	color: black;
-	background-color: white;
 	padding: 2px 0px;
 	border-radius: 10px;
 }
@@ -51,7 +48,7 @@ a {
 }
 
 #title a {
-	color: orange;
+	color: #FFBA4B;
 }
 
 #nav {

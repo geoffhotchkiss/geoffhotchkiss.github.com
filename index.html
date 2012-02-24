@@ -1,12 +1,21 @@
----
-layout: default
-title: "geoffhotchkiss"
----
-<div id="posts">
-	<h3>Most Recent Posts</h3>
-	{% for post in site.posts limit:5 %}
-		<div class="post">
-			<a href="{{ post.url }}">{{ post.title }}</a>
-		</div>
-	{% endfor %}
-</div>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<title>Geoff Hotchkiss</title>
+	</head>
+	
+	<body>
+		<div id="content">		
+			<h1 id="title"><a href="#">Geoff Hotchkiss</a></h1>
+			<div id="nav">
+				<a id="bloglink" href="#">Blog</a>
+				<a id=" githublink" href="#">Github</a>
+				<a id="resumelink" href="#">Resume</a>
+				<a id="aboutlink" href="#">About</a>
+			</div>
+			<div id="about">
+				Some stuff about me.
+			</div>
+		</content>
+	</body>
+</html>

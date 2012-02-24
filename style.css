@@ -1,0 +1,34 @@
+body {
+	font-family: sans-serif;
+	background-color: #222;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 31px;
+}
+
+#title {
+	color: orange;
+	padding-left: 31px;
+	margin: 0px;
+	margin-bottom: 10px;
+}
+
+#title a {
+	color: orange;
+	text-decoration: none;
+}
+
+#nav a {
+	text-decoration: none;
+	margin: 10px 10px;
+	color: #F1E05D;
+	font-size: 20px;
+}
+
+#about {
+	margin-top: 0px;
+	background-color: #eee;
+	padding: 10px;
+	border-radius: 10px;
+}
