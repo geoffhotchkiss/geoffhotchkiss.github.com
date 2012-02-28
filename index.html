@@ -3,6 +3,14 @@ layout: default
 title: Geoff Hotchkiss
 ---
 
+<script type="text/javascript" src="https://raw.github.com/gabrielfalcao/jquery-yql/master/jquery.yql.js"></script>
+<script type="text/javascript" src="https://raw.github.com/rmm5t/jquery-timeago/master/jquery.timeago.js"></script>
+<script type="text/javascript" src="https://raw.github.com/eatnumber1/eatnumber1.github.com/master/js/latitude.js"></script>
+
+<div id="recentposts">
+	<h3>Recent Posts:</h3>
+</div>
+
 <div id="posts">
 	{% for post in site.posts limit:5 %}
 		<div id="post">
@@ -10,11 +18,6 @@ title: Geoff Hotchkiss
 		</div>	
 	{% endfor %}
 </div>
-
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://raw.github.com/gabrielfalcao/jquery-yql/master/jquery.yql.js"></script>
-<script type="text/javascript" src="https://raw.github.com/rmm5t/jquery-timeago/master/jquery.timeago.js"></script>
-<script type="text/javascript" src="https://raw.github.com/eatnumber1/eatnumber1.github.com/master/js/latitude.js"></script>
 
 I currently exist in <span id="latitudeloc"> </span>.
 <script type="text/javascript">

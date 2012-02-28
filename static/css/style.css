@@ -55,7 +55,12 @@ a {
 	font-size: 20px;
 }
 
-#nav a {
+.navlink {
 	color: #aabf73;
 	margin: 0px 10px;
+}
+
+.hover {
+	color: black;
+	background-color: red;
 }
