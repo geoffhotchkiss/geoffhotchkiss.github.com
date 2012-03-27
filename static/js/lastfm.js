@@ -7,8 +7,7 @@ $.get(
 		tracks = data.getElementsByTagName("item");
 		$.each(tracks, function(index, track) {
 			var trackinfo = buildarray(track);
-			$("#lastfmtracks").append(trackinfo["title"] + "</br>");
-			console.log(trackinfo["title"]);
+			$("#lastfmtracks").append("<li> <a href=\"" + trackinfo["link"] + "\">"  + trackinfo["title"] + "</a></li>");
 		});
 	},
 	"xml");
