@@ -37,6 +37,11 @@ body {
 	margin-top: 0px;
 }
 
+#hey {
+	font-size: 120%;
+	margin-bottom: 10px;
+}
+
 #posts {
 	margin: 20px;
 }
